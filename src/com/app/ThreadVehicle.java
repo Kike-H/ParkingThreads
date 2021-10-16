@@ -19,6 +19,6 @@ public class ThreadVehicle extends Thread {
 			e.printStackTrace();
 		}
 		System.out.println("Going out "+Thread.currentThread().getName());
-		this.count.increaseCount(20);
+		this.count.increaseCount(10);
 	}
 }
